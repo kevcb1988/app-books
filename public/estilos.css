@@ -1,0 +1,154 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: #1e273a;
+}
+
+.contenedor-inicio{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: auto;
+}
+
+.jumbotron{
+    background-color: transparent;
+    margin: auto;
+}
+
+.form-control{
+    margin: 20px 0;
+    border: none;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.modal-header{
+    border: none;
+    text-align: center;
+    display: block;
+}
+
+h2.modal-title{
+    padding-top: 0.5em;
+    font-size: 2.5em;
+}
+
+.modal-footer{
+    border: none;
+}
+
+.modal-body .form-control{
+    margin: 15px 0 15px;
+    border-bottom: solid 1px  rgba(211, 211, 211, 0.75);
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: left;
+}
+
+.form-modal{
+    margin: 20px 0;
+    border: none;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.redes-sociales ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.redes-sociales ul li{
+   margin: 0px 10px;
+   font-size: 1.5em;
+}
+
+.redes-sociales ul li a i{
+    color: rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.redes-sociales ul li a i:hover{
+    color: rgba(255, 255, 255, 1);
+    transition: all 0.2s ease-in-out;
+}
+
+.marca-eggs{
+    font-size: 0.75em;
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+/* Contendedor Usuario */
+
+.contenedor-usuario{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: auto;
+}
+
+/* Listado de libros */
+
+.list-group-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.25em;
+}
+
+.lista-libros{
+    color: #fff;
+}
+
+.list-group-item{
+    color: #555;
+}
+
+.lista-libros-titulo{
+    font-size: 1.1em;
+    line-height: 1.15em;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.badge{
+    padding: 0.5em 0.75em;
+    margin-top: 10px;
+}
+
+.lista-libros-botones{
+    display: flex;
+    flex-direction: row;
+}
+
+.lista-libros-botones button{
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+/* .lista-libros-botones button:nth-child(1){
+} */

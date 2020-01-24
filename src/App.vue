@@ -1,32 +1,24 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <!-- <div id="nav" class="fixed-top">
+      <router-link to="/">Home</router-link>    |
+      <router-link to="/inicio">Inicio de Sesión</router-link>  |
+      <router-link to="/registro">Registro</router-link> |
+      <router-link to="/usuario">Usuario</router-link>
+    </div> -->
+    <footer/>
     <router-view/>
   </div>
 </template>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import Cabecera from '@/components/Footer'
 
-#nav {
-  padding: 30px;
+export default {
+  name: 'app',
+  components: {
+    Cabecera
+  }
 }
+</script>
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
